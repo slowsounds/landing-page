@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+    max-height: 200px;
+    border-radius: 25px;
+    border: 2px solid #4f65e0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    padding: 4px 16px;
+    height: 27px;
+    background-color: #3882F6;
+    border-style: none;
+    color: #F9FAF8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+  }
+
+.header {
+  display: flex;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 24px;
+  justify-content: space-between;
+  padding: 5px 100px 5px 100px;
+}
+
+.list {
+    display: flex;
+}
+
+.top {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex; 
+    padding: 50px 100px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.secondary {
+    padding: 10px 10px 10px 0px;
+    font-size: 18px;
+}
+
+.right img {
+    border-style: none;
+}
+
+.middle {
+    padding: 50px 100px 50px 100px;
+}
+
+.h2 {
+    display: flex; 
+    justify-content: center;
+    padding: 0px 0px 50px 0px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.middle2 {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.square {
+    max-width: 200px;
+    text-align: center;
+  }
+
+.text {
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 75px 300px 75px 300px;
+}
+
+.text1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.CTA {
+    padding: 50px 100px 50px 100px;
+    color: #F9FAF8;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: end;
+}
+
+.CTA button {
+    background-color: #3882F6;
+    padding: 4px 16px;
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
+.left {
+    text-align: left;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 30px 100px 30px 100px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+}
+
